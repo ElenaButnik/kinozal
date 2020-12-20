@@ -1,0 +1,42 @@
+.container-footer {
+    background-color: $color-dark;
+    padding-top: 45px;
+
+    &__title {
+        color: $color-light;
+        display: block;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 1.1;
+   
+    }
+
+    &__item  {
+        color: darken($color-gray, 40%);
+        display: block;
+        &:hover {
+            color: $color-light;
+        }
+    }
+    
+}
+
+.container-bottom {
+   margin-top: $gap * 2;
+   margin-bottom: 20px;
+    width: 100%;
+    
+    &__item {
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        color: $color-light;
+        text-decoration: none;
+        background-color: transparent;
+        &:hover,
+        &:focus {
+            color: $color-light;
+        }
+
+    }
+}
